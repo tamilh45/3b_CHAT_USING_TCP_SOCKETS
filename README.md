@@ -1,7 +1,5 @@
 # 3b.CREATION FOR CHAT USING TCP SOCKETS
 
-## NAME: A K PREETHI
-## REG NO: 212223230156
 ## AIM
 To write a python program for creating Chat using TCP Sockets Links.
 ## ALGORITHM:

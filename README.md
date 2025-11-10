@@ -17,9 +17,9 @@ import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
-    msg=input("Client > ")
+    msg=input("Client>")
     s.send(msg.encode())
-    print("Server > ",s.recv(1024).decode())
+    print("Server>",s.recv(1024).decode())
 ```
 **server.py**
 ```
@@ -30,11 +30,15 @@ s.listen(5)
 c,addr=s.accept()
 while True:
     ClientMessage=c.recv(1024).decode()
-    c.send(ClientMessage.encode())
+    print("Client > ",ClientMessage)
+    msg=input("Server > ")
+    c.send(msg.encode())
 
 ```
 ## OUPUT
-<img width="1919" height="1079" alt="Screenshot 2025-11-10 154111" src="https://github.com/user-attachments/assets/e19b3eee-0dbf-437c-bffe-8a95a2c47119" />
+
+<img width="1919" height="1079" alt="Screenshot 2025-11-10 161052" src="https://github.com/user-attachments/assets/2b4e43c0-8f39-4a9a-9109-122ca7627e52" />
+
 
 ## RESULT
 Thus, the python program for creating Chat using TCP Sockets Links was successfully 

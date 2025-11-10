@@ -37,7 +37,8 @@ while True:
 ```
 ## OUPUT
 
-<img width="1919" height="1079" alt="Screenshot 2025-11-10 161052" src="https://github.com/user-attachments/assets/2b4e43c0-8f39-4a9a-9109-122ca7627e52" />
+<img width="1919" height="1079" alt="Screenshot 2025-11-10 161052" src="https://github.com/user-attachments/assets/3b76a87b-2d34-4404-ba2e-5b9c2d8d3e89" />
+
 
 
 ## RESULT
